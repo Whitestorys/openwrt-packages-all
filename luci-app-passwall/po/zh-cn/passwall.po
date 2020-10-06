@@ -211,6 +211,9 @@ msgstr "ChinaDNS-NG 公平模式"
 msgid "Filtered DNS(For Proxied Domains)"
 msgstr "域名过滤服务(用于被代理的域名)"
 
+msgid "Format must be:"
+msgstr "格式必须为："
+
 msgid "DoH request address"
 msgstr "DoH 请求地址"
 
@@ -928,8 +931,8 @@ msgstr "伪装类型"
 msgid "Transport Layer Encryption"
 msgstr "传输层加密"
 
-msgid "Whether or not transport layer encryption is enabled, the supported options are \"none\" for unencrypted and \"TLS\" for using TLS."
-msgstr "是否启入传输层加密，支持的选项有 \"none\" 表示不加密，\"tls\" 表示使用 TLS。"
+msgid "Whether or not transport layer encryption is enabled, \"none\" for unencrypted, \"tls\" for using TLS, \"xtls\" for using XTLS."
+msgstr "是否启入传输层加密，支持的选项有 \"none\" 表示不加密，\"tls\" 表示使用 TLS，\"xtls\" 表示使用 XTLS。"
 
 msgid "'none' not supported for original Trojan, please choose 'tls'."
 msgstr "原版Trojan不支持'none'，请选择TLS。"
@@ -948,9 +951,6 @@ msgstr "<br />none：默认值，不进行伪装，发送的数据是没有特�
 
 msgid "A legal file path. This file must not exist before running V2Ray."
 msgstr "一个合法的文件路径。在运行 V2Ray 之前，这个文件必须不存在。"
-
-msgid "UNIX domain socket, absolute path, you can add @ at the beginning to represent abstract, and it is empty by default. If this value is filled in, addr and port will be ignored."
-msgstr "UNIX domain socket，绝对路径，可在开头加 @ 代表 abstract，默认为空。若填写了该值，addr 和 port 将被忽略。"
 
 msgid "TCP Open Socks"
 msgstr "开启Socks"
@@ -972,6 +972,9 @@ msgstr "匿名"
 
 msgid "User Password"
 msgstr "账号密码"
+
+msgid "Username and Password must be used together!"
+msgstr "账号和密码必须同时使用！"
 
 msgid "Node Number"
 msgstr "节点数量"
@@ -997,8 +1000,8 @@ msgstr "隐藏菜单方法，地址栏输入例："
 msgid "After the hidden to the display, input example in the address bar:"
 msgstr "当你隐藏后想再次显示，地址栏输入例："
 
-msgid "When OTA is enabled, a connection that is not OTA enabled is rejected. This option is invalid when using AEAD encryption."
-msgstr "开启 OTA 后，将拒绝未启用 OTA 的连接。当使用 AEAD 加密时，该选项无效。"
+msgid "The MTProto protocol must be 32 characters and can only contain characters from 0 to 9 and a to f."
+msgstr "MTProto 协议必须为 32 个字符，仅可包含 0 到 9 和 a 到 f 之间的字符。"
 
 msgid "transit node"
 msgstr "中转到此节点"
