@@ -13,7 +13,7 @@ on:
     branches: 
       - packages
   schedule:
-    - cron: 30 19 * * *
+    - cron: 10 */12 * * *
   watch:
     types: started
 jobs:
