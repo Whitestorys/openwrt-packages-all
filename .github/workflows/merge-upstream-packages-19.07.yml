@@ -9,11 +9,11 @@
 name: Merge Upstream For packages-19.07
 
 on:
-  push:
-    branches: 
-      - packages-19.07
-  schedule:
-    - cron: 10 */12 * * *
+#   push:
+#     branches: 
+#       - packages-19.07
+#   schedule:
+#     - cron: 10 */12 * * *
   watch:
     types: started
 jobs:
